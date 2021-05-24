@@ -271,5 +271,110 @@ org.jetbrains.idea.maven.server.MavenServerIndexerException: Cannot overwrite: C
         at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 
 ```
+
+
+
+
+```
+
+dphmm2:~ davidho$ sort -u < xyz.txt | grep -i aws
+https://aws.amazon.com/events/summits/online/americas/?sc_channel=sm&sc_campaign=Summit&sc_publisher=TWITTER&sc_country=Global,Global+(Public+Sector+Users),Global+(EMEA+users),Global+(APAC+users),Global+(LATAM+users)&sc_geo=NAMER&sc_outcome=event_registration&trk=osm-tw-en-23_TWITTER&linkId=118959646 20210518.033858 
+https://aws.amazon.com/events/summits/online/americas/?sc_channel=sm&sc_campaign=Summit&sc_publisher=TWITTER&sc_country=Global,Global+(Public+Sector+Users),Global+(EMEA+users),Global+(APAC+users),Global+(LATAM+users)&sc_geo=NAMER&sc_outcome=event_registration&trk=osm-tw-en-23_TWITTER&linkId=118959646 20210518.033902 
+https://aws.amazon.com/intellij/ 20210523.061054 
+https://aws.amazon.com/sdk-for-java/ 20210523.215004 
+https://aws.amazon.com/tools/ 20210523.214716 
+https://aws.amazon.com/visualstudiocode/ 20210523.061125 
+https://aws.amazon.com/visualstudiocode/ 20210523.214641 
+https://aws.amazon.com/visualstudiocode/ 20210523.214654 
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingTheMPJavaAPI.html 20210514.103012 
+https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html 20210523.061910 
+https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html 20210523.213920 
+https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html 20210523.214212 
+https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html 20210523.214221 
+https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html 20210523.214108 
+https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html 20210523.214148 
+https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html 20210523.214204 
+https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html 20210523.213856 
+https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html 20210523.213903 
+https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html 20210523.213911 
+https://docs.aws.amazon.com/cli/latest/userguide/install-cliv1.html 20210523.214000 
+https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html 20210523.213929 
+https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html 20210523.214047 
+https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html 20210523.213938 
+https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html 20210523.214014 
+https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html 20210523.214029 
+https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html 20210523.213945 
+https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html 20210523.214056 
+https://docs.aws.amazon.com/cli/latest/userguide/install-windows.html 20210523.213952 
+https://docs.aws.amazon.com/cli/latest/userguide/welcome-examples.html 20210523.214128 
+https://docs.aws.amazon.com/cli/latest/userguide/welcome-resources.html 20210523.214118 
+https://docs.aws.amazon.com/cli/latest/userguide/welcome-versions.html 20210523.214139 
+https://docs.aws.amazon.com/general/latest/gr/rande.html 20210523.055812 
+https://docs.aws.amazon.com/ja_jp/AWSJavaSDK/latest/javadoc/com/amazonaws/regions/Regions.html 20210523.055621 
+https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/examples-s3-buckets.html 20210523.214936 
+https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/examples-s3-objects.html 20210523.214917 
+https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/examples-s3-objects.html 20210523.214927 
+https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/examples-s3.html 20210523.053540 
+https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/examples-s3.html 20210523.214944 
+https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/get-started.html 20210522.104153 
+https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/get-started.html 20210522.163814 
+https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/get-started.html 20210522.163821 
+https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/get-started.html 20210523.214952 
+https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/aws-credentials.html 20210523.214452 
+https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/aws-credentials.html 20210523.214518 
+https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/establish-credentials.html 20210523.214509 
+https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/establish-credentials.html 20210523.214533 
+https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/obtain-credentials.html 20210523.214247 
+https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/obtain-credentials.html 20210523.214439 
+https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/setting-up.html 20210523.214554 
+https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/setup-credentials.html 20210523.214235 
+https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/setup-toolkit.html 20210523.214544 
+https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/welcome.html 20210523.214604 
+https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/welcome.html 20210523.214617 
+https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/welcome.html 20210523.214625 
+https://github.com/awsdocs/aws-doc-sdk-examples/blob/master/javav2/example_code/s3/pom.xml 20210523.214740 
+https://github.com/awsdocs/aws-doc-sdk-examples/blob/master/javav2/example_code/s3/pom.xml 20210523.214748 
+https://github.com/awsdocs/aws-doc-sdk-examples/blob/master/javav2/example_code/s3/src/main/java/com/example/s3/S3ObjectOperations.java 20210523.214903 
+https://github.com/awsdocs/aws-doc-sdk-examples/tree/master/javav2/example_code/s3 20210523.214802 
+https://github.com/awsdocs/aws-doc-sdk-examples/tree/master/javav2/example_code/s3/src 20210523.214812 
+https://github.com/awsdocs/aws-doc-sdk-examples/tree/master/javav2/example_code/s3/src/main 20210523.214821 
+https://github.com/awsdocs/aws-doc-sdk-examples/tree/master/javav2/example_code/s3/src/main/java 20210523.214830 
+https://github.com/awsdocs/aws-doc-sdk-examples/tree/master/javav2/example_code/s3/src/main/java/com 20210523.214837 
+https://github.com/awsdocs/aws-doc-sdk-examples/tree/master/javav2/example_code/s3/src/main/java/com/example 20210523.214845 
+https://github.com/awsdocs/aws-doc-sdk-examples/tree/master/javav2/example_code/s3/src/main/java/com/example/s3 20210523.214854 
+https://grails-aws.github.io/grails-aws/ 20210520.193457 
+https://grails-aws.github.io/grails-aws/ 20210523.220930 
+https://grails-aws.github.io/grails-aws/1.7.5.0/guide/1%20Introduction%20to%20Grails%20AWS%20Plugin.html 20210523.220851 
+https://grails-aws.github.io/grails-aws/1.7.5.0/guide/1%20Introduction%20to%20Grails%20AWS%20Plugin.html 20210523.220915 
+https://grails-aws.github.io/grails-aws/1.7.5.0/guide/2%20Amazon%20Simple%20Storage%20Service%20(AWS%20S3).html 20210523.220905 
+https://grails-aws.github.io/grails-aws/1.7.5.0/guide/2%20Amazon%20Simple%20Storage%20Service%20(AWS%20S3).html#2.1%20Specific%20configuration%20for%20S3 20210523.220858 
+https://grails-aws.github.io/grails-aws/1.7.5.0/index.html 20210520.193520 
+https://grails-aws.github.io/grails-aws/1.7.5.0/index.html 20210523.220922 
+https://labs.sentinelone.com/cve-2021-21551-hundreds-of-millions-of-dell-computers-at-risk-due-to-multiple-bios-driver-privilege-escalation-flaws/ 20210504.212159 
+https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-s3 20210523.215027 
+https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-s3/1.11.1024 20210523.215014 
+https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk/1.11.1022 20210523.220756 
+https://objectcomputing.com/services/training/catalog/micronaut-training/micronaut-aws-integration 20210416.024358 
+https://objectcomputing.com/services/training/catalog/micronaut-training/micronaut-aws-integration 20210416.024613 
+https://play.google.com/store/apps/details?id=com.gazlaws.codeboard 20210420.044405 
+https://plugins.grails.org/plugin/grails-aws/org.grails.plugins%3Agrails-aws 20210520.193414 
+https://plugins.grails.org/plugin/grails-aws/org.grails.plugins%3Agrails-aws 20210523.220943 
+https://stackoverflow.com/questions/67087737/aws-build-pipeline-for-grails-4?utm_source=dlvr.it&utm_medium=twitter 20210414.212641 
+https://www.baeldung.com/aws-s3-java 20210520.234536 
+https://www.baeldung.com/aws-s3-java 20210521.062747 
+https://www.baeldung.com/aws-s3-java 20210523.220708 
+https://www.baeldung.com/aws-s3-java 20210523.220721 
+https://www.baeldung.com/aws-s3-java 20210523.220734 
+https://www.infoq.com/news/2021/04/netflix-consoleme-aws/ 20210420.052657 
+https://www.infoq.com/news/2021/04/netflix-consoleme-aws/ 20210420.052835 
+https://www.infoq.com/news/2021/05/aws-billing-limits/ 20210522.071317 
+https://www.infoq.com/news/2021/05/aws-billing-limits/ 20210522.071724 
+https://www.torquenews.com/1084/subaru-battery-drain-lawsuit-new-claims-now-include-forester-wrx-and-legacy 20210515.074839 
+https://www.torquenews.com/1084/subaru-settles-outback-legacy-cracked-windshield-lawsuit-here-what-owners-get 20210412.105351 
+https://www.zdnet.com/article/python-programming-our-new-tool-can-help-clean-up-your-buggy-code-says-aws/ 20210409.204505 
+dphmm2:~ davidho$ 
+
+```
+
         
 
