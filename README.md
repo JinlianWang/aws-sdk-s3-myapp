@@ -56,6 +56,29 @@ https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fconsole.aws.amaz
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
+more aws urls visited recently (may be duplicates of those already captured) ...
+
+dphmm2:~ davidho$ cat a.txt | sort | grep -i aws
+https://cloud.google.com/blog/topics/developers-practitioners/handy-new-google-cloud-aws-and-azure-product-map?twclid=11399164216406417408 20210530.204636 
+https://cloud.google.com/blog/topics/developers-practitioners/handy-new-google-cloud-aws-and-azure-product-map?twclid=11399164216406417408 20210530.204814 
+https://dev.to/aws-builders/modern-full-stack-serverless-part-iii-ha 20210531.051200 
+https://dev.to/aws-builders/modern-full-stack-serverless-part-iii-ha 20210531.051308 
+https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/get-started.html 20210604.041624 
+https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/get-started.html 20210604.041740 
+https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/using.html 20210604.042309 
+https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/examples-s3.html 20210604.034259 
+https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/setup-project-maven.html 20210604.034536 
+https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/setup-project-maven.html 20210604.034836 
+https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/setup-project-maven.html 20210604.035238 
+https://guides.micronaut.io/latest/micronaut-aws-lambda-s3-event-gradle-java.html 20210529.145546 
+https://sergiodelamo.com/blog/micronaut-guide-aws-lambda-s3-event-thumbnails-generation.html 20210529.145454 
+https://sergiodelamo.com/blog/micronaut-guide-aws-lambda-s3-event-thumbnails-generation.html 20210529.145515 
+https://www.baeldung.com/aws-s3-java 20210604.041502 
+https://www.infoq.com/news/2021/06/aws-lambda-extensions-ga/ 20210601.212630 
+dphmm2:~ davidho$ 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
 mvn -B archetype:generate \
   -DarchetypeGroupId=org.apache.maven.archetypes \
   -DgroupId=com.example.myapp \
