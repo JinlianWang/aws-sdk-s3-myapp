@@ -13,10 +13,28 @@ import software.amazon.awssdk.services.s3.model.S3Exception;
 import software.amazon.awssdk.services.s3.S3Client;
 
 
+
+import software.amazon.awssdk.auth.credentials.AwsCredentials;
+import software.amazon.awssdk.auth.credentials.AwsSessionCredentials;
+import software.amazon.awssdk.auth.credentials.InstanceProfileCredentialsProvider;
+import software.amazon.awssdk.auth.credentials.StaticCredentialsProvider;
+import software.amazon.awssdk.core.document.Document;
+import software.amazon.awssdk.http.SdkHttpClient;
+import software.amazon.awssdk.services.identitystore.IdentitystoreClient;
+import software.amazon.awssdk.services.identitystore.model.AttributeOperation;
+import software.amazon.awssdk.services.identitystore.model.UpdateGroupRequest;
+import software.amazon.awssdk.services.identitystore.model.DescribeUserRequest;
+import software.amazon.awssdk.services.identitystore.model.DescribeUserResponse;
+import software.amazon.awssdk.services.identitystore.model.ListUsersRequest;
+import software.amazon.awssdk.services.identitystore.model.ListUsersResponse;
+import software.amazon.awssdk.services.identitystore.model.*;
+
+
 public class App {
 
     public static void main(String[] args) throws IOException {
 
+        /* 
         Region region = Region.US_WEST_2;
         S3Client s3 = S3Client.builder().region(region).build();
 
@@ -35,11 +53,32 @@ public class App {
         System.out.printf("%n");
 
         cleanUp(s3, bucket, key);
+*/
 
+        IdentitystoreClient awsSSOClient =  IdentitystoreClient.builder().build();
+
+        System.out.println("ssoclient--->"+awsSSOClient.toString());
+        System.out.println("servciename---->"+awsSSOClient.serviceName());
+        System.out.println("got awssso client");
+        System.out.println("ssoclient--->"+awsSSOClient);
+        ListUsersRequest listUsersRequest = ListUsersRequest.builder().identityStoreId("d-906772fff3").build();
+        ListUsersResponse listUsersResponse = awsSSOClient.listUsers(listUsersRequest);
+        System.out.println("has users---->"+listUsersResponse.hasUsers());
+
+        for(User user: listUsersResponse.users()) {
+            System.out.println("User EID---->"+ user.userName());
+        }
+
+
+
+        /* 
         System.out.println("Closing the connection to Amazon S3");
         s3.close();
         System.out.println("Connection closed");
         System.out.println("Exiting...");
+
+
+*/
     }
 
     public static void tutorialSetup(S3Client s3Client, String bucketName, Region region) {
